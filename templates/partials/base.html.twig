@@ -50,7 +50,9 @@
         {% block header %}
         <header id="header">
                 <div class="logo">
-                    <h3><a href="{{ base_url_absolute }}">{{ config.site.title }}</a></h3>
+<a href="{{ base_url_absolute }}">
+                    <img src="{{ url('theme://images/group_logo.png') }}"/> 
+</a>
                     {% block social %}
                         {% include 'partials/social.html.twig' %}
                     {% endblock %}

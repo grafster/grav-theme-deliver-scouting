@@ -9,9 +9,11 @@
     background-color: rgba(255,255,255,0.90);
     box-shadow: 0 0.05rem 1rem rgba(0,0,0, 0.15);
 
-    > .grid, .logo, #navbar, .social-navigation {
+    > .grid, #navbar, .social-navigation {
         height: 50%;
     }
+
+    .logo { height: 50%;}   
     .fa {
         color: $black;
     }
@@ -46,6 +48,7 @@
                 @extend %vertical-align;
             }
         }
+        img { object-fit: contain; }
     }
 
     .search-box {
@@ -156,6 +159,7 @@
                 @extend %vertical-align;
                 display: inline-block;
                 float: left;
+                top: 25%;
                 li {
                     float: left;
                     position: relative;
