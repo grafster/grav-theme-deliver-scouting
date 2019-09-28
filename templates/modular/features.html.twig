@@ -9,10 +9,14 @@
             {% if feature.icon %}
             <i class="fa fa-fw fa-{{ feature.icon }}"></i>
             <div class="feature-content icon-offset">
+
+           {% elseif feature.image %}
+            <img src="{{ page.media[feature.image].url }}" alt="{{ feature.header }}"/>
+            <div class="feature-content icon-offset">
             {% else %}
             <div class="feature-content">
             {% endif %}
-            {% if feature.header %}
+            {% if feature.header and not feature.image %}
             <h4>{{ feature.header }}</h4>
             {% endif %}
             {% if feature.text %}
