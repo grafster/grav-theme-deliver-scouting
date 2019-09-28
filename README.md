@@ -1,10 +1,11 @@
 # Deliver Scouting Theme for Grav
 
+A work in progress fork of the Deliver theme, to fit with the new(ish) UK Scout branding.
+
 ![Deliver](assets/readme_1.png)
 
 ![Deliver Mobile](assets/readme_2.png)
 
-A work in progress fork of the Deliver theme, to fit with the new(ish) UK Scout branding.
 
 Deliver theme is a port of the [Deliver](http://freebiesbug.com/psd-freebies/deliver-free-psd-theme/) by [Michael Reimer](http://www.bestpsdfreebies.com/). Whether you’re a creative looking to show off your portfolio, or a business looking to promote your company, this theme is for you.
 
