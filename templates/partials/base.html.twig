@@ -49,7 +49,7 @@
     <div id="sb-site">
         {% block header %}
         {% if page.header.headerimage %}
-           <header id="header" style="background-image: url('/user/pages/01.home/_showcase/a-beaver-running.jpg')">
+           <header id="header" style="background-image: url({{ page.media[page.header.headerimage].url  }})">
         {% else %}
            <header id="header">
         {% endif %}
