@@ -11,12 +11,12 @@
             <div class="feature-content icon-offset">
 
            {% elseif feature.image %}
-            <img src="{{ page.media[feature.image].url }}" alt="{{ feature.header }}"/>
+            <img src="{{ page.media[feature.image].url }}" alt="{{ feature.imagealt }}"/>
             <div class="feature-content icon-offset">
             {% else %}
             <div class="feature-content">
             {% endif %}
-            {% if feature.header and not feature.image %}
+            {% if feature.header %}
             <h4>{{ feature.header }}</h4>
             {% endif %}
             {% if feature.text %}

@@ -10,10 +10,10 @@
     box-shadow: 0 0.05rem 1rem rgba(0,0,0, 0.15);
 
     > .grid, #navbar, .social-navigation {
-        height: 50%;
+        height: 25%;
     }
 
-    .logo { height: 50%;}   
+    .logo { height: 75%;}   
     .fa {
         color: $black;
     }
@@ -324,10 +324,11 @@
         li.active a {
             color: $core-accent;
         }
+        .logo { background: #7413DC;}
         .logo ul.social-icons li {
-            background: transparentize($light-gray, 0.8);
+            background: white;
             .fa {
-                color: white;
+                color: black;
             }
             &:hover {
                 .fa {
