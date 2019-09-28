@@ -48,8 +48,13 @@
 <body id="top" class="{{ page.header.body_classes }}">
     <div id="sb-site">
         {% block header %}
-        <header id="header">
-                <div class="logo">
+        {% if page.header.headerimage %}
+           <header id="header" style="background-image: url('/user/pages/01.home/_showcase/a-beaver-running.jpg')">
+        {% else %}
+           <header id="header">
+        {% endif %}
+
+        <div class="logo">
 <a href="{{ base_url_absolute }}">
                   <!--  <img src="{{ url('theme://images/group_logo.png') }}"/>  </a> -->
                  <img src="{{ url('theme://images/logo.svg') }}"/> 
