@@ -10,10 +10,10 @@
     box-shadow: 0 0.05rem 1rem rgba(0,0,0, 0.15);
 
     > .grid, #navbar, .social-navigation {
-        height: 25%;
+        height: 50%;
     }
 
-    .logo { height: 75%;}   
+    .logo { height: 50%;  }   
     .fa {
         color: $black;
     }
@@ -48,7 +48,7 @@
                 @extend %vertical-align;
             }
         }
-        img { object-fit: contain; }
+        img { object-fit: contain; max-height: 100%; max-width: 100%; float: left; padding-top: 5px; padding-bottom: 5px; padding-right: 5px;}
     }
 
     .search-box {
@@ -159,7 +159,7 @@
                 @extend %vertical-align;
                 display: inline-block;
                 float: left;
-                top: 25%;
+                top: 50%;
                 li {
                     float: left;
                     position: relative;
