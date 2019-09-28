@@ -17,6 +17,7 @@
     .fa {
         color: $black;
     }
+    #menu-btn { color: $white; }
 
     .fixed {
         background: #fff;
@@ -44,6 +45,7 @@
             }
             font-family: "Nunito Sans";
             font-weight: 800;
+            color: #FFFFFF;
         }
         ul {
             &.social-icons {
@@ -171,6 +173,7 @@
                         font-family: $font-family-header;
                         display: inline-block;
                         padding: 0.3rem 0.8rem;
+                        color: #FFFFFF;
 
                         &.active, &:hover {
                             color: $core-accent;
